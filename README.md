@@ -2,7 +2,7 @@
 
 The purpose of this project is to separate an image obtained as a sum of a two images into its components.
 
-The two images img1 and img2 summed together come from different dataset: mnist and fashion_mnist, respectively.
+The two images img1 and img2 summed together come from different dataset: [mnist](http://yann.lecun.com/exdb/mnist/) and [fashion_mnist](https://github.com/zalandoresearch/fashion-mnist), respectively.
 
 No preprocessing was allowed. The network takes in input the sum img1+img2 and returns the predicted components hat_img1 and hat_img2.
 
