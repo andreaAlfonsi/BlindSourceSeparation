@@ -1,4 +1,4 @@
-# Blind Sourc eSeparation for images
+# Blind Source Separation for images
 
 The task consists in decomposing an image obtained as a sum of a two images img1 and img2 into its components.
 
