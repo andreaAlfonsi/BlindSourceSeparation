@@ -10,7 +10,7 @@ The metric used to evaluate the project is the mean squared error between predic
 
 ## Model
 
-After a lot of experiments with different models based on the UNet backbone (including [UNet++](https://arxiv.org/abs/1912.05074), [DCNet](https://pubmed.ncbi.nlm.nih.gov/32444591/) and [SUnet](https://arxiv.org/abs/2202.14009) the best results emerged with a [MultiResUNet](https://arxiv.org/pdf/1902.04049.pdf)-like structure.
+After a lot of experiments with different models based on the UNet backbone (including [UNet++](https://arxiv.org/abs/1912.05074), [DCNet](https://pubmed.ncbi.nlm.nih.gov/32444591/) and [SUnet](https://arxiv.org/abs/2202.14009)) the best results emerged with a [MultiResUNet](https://arxiv.org/pdf/1902.04049.pdf)-like structure.
 
 In particular, the model is made of an encoder and two decoders, whose output will then be concatenated to generate the desired result.
 
